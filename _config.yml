@@ -1,0 +1,113 @@
+baseurl: '/'
+permalink: pretty
+title: 'COGNIMAN Toolbox Portal'
+
+logo:
+  mobile: "images/logo/Cogniman-mobile.svg"
+  mobile_height: "32px"
+  #mobile_width: "32px"
+  desktop: "images/logo/Cogniman Logo Badge.svg"
+  desktop_height: "32px"
+  #desktop_width: "120px"
+
+collections:
+
+  pipelines:
+    output: true
+    sort_by: weight
+
+  digitaltwin:
+    output: true
+    sort_by: weight
+  
+  physicaltwin:
+    output: true
+    sort_by: weight
+  
+  datalayer:
+    output: true
+    sort_by: weight
+  
+  servicelayer:
+    output: true
+    sort_by: weight
+  
+  userinterface:
+    output: true
+    sort_by: weight
+  
+  connectivity:
+    output: true
+    sort_by: weight
+  
+  ssh:
+    output: true
+    sort_by: weight
+
+defaults:
+  - scope:
+      path: ""
+      type: "digitaltwin"
+    values:
+      layout: "tool"
+  
+  - scope:
+      path: ""
+      type: "pipelines"
+    values:
+      layout: "pipeline"
+  
+  - scope:
+      path: ""
+      type: "physicaltwin"
+    values:
+      layout: "tool"
+
+  - scope:
+      path: ""
+      type: "datalayer"
+    values:
+      layout: "tool"  
+
+  - scope:
+      path: ""
+      type: "servicelayer"
+    values:
+      layout: "tool"  
+  
+  - scope:
+      path: ""
+      type: "userinterface"
+    values:
+      layout: "tool"
+
+  - scope:
+      path: ""
+      type: "connectivity"
+    values:
+      layout: "tool"
+    
+  - scope:
+      path: ""
+      type: "ssh"
+    values:
+      layout: "tool"
+
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

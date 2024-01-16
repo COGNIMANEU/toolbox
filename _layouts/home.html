@@ -1,0 +1,447 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-center">
+      <div class="col-12 col-md-10">
+          <div class="service service-single">
+              <h1 class="title">{{page.title}}</h1>
+              <div class="content">{{content}}</div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- <div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      {% assign limit = site.home.limit_services | default: 6 %}
+      {% for service in site.services limit: limit %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            </h2>
+            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="strip" style="background: #D7E9B9;">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <h1 class="title">Digital Twin Pipelines</h1>
+    <div class="row justify-content-start">
+      {% assign pipelines = site.pipelines | sort: "weight" %}
+      {% for service in pipelines %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h3 class="service-title">
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            </h3>
+            <p>{{ service.description}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- {% if site.data.features %}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for feature in site.data.features %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if feature.image %}
+          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content">{{ feature.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %} -->
+
+<div class="strip" style="background: #d5edff;">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1 class="title">Physical Twin</h1>
+    <h5>{{ site.data.layers.physicaltwin }}</h5>
+    <div class="row justify-content-start">
+      {% assign physicaltwin = site.physicaltwin | sort: "weight" %}
+      {% for feature in physicaltwin %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #253761;">
+          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
+          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
+          <div class="row justify-content-center">
+            
+            {% if feature.link %}
+              <div class="col-auto">
+                <a href="{{ feature.link }}" target="blank"> 
+                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.github %}
+              <div class="col-auto">
+                <a href="{{ feature.github }}" target="blank"> 
+                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.license %}
+              <div class="col-auto"> 
+                <img src="{{ feature.license }}" alt="License" />
+              </div>
+            {% endif %}
+
+            {% if feature.trl %}
+              <div class="col-auto"> 
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                  <img src="{{ feature.trl }}" alt="TRL" />
+                </a> 
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+<div class="strip" style="background: #9eecff;">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1 class="title">Data Layer</h1>
+    <h5>{{ site.data.layers.datalayer }}</h5>
+    <div class="row justify-content-start">
+      {% assign datalayer = site.datalayer | sort: "weight" %}
+      {% for feature in datalayer %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #253761;">
+          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
+          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
+          <div class="row justify-content-center">
+            
+            {% if feature.link %}
+              <div class="col-auto">
+                <a href="{{ feature.link }}" target="blank"> 
+                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.github %}
+              <div class="col-auto">
+                <a href="{{ feature.github }}" target="blank"> 
+                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.license %}
+              <div class="col-auto"> 
+                <img src="{{ feature.license }}" alt="License" />
+              </div>
+            {% endif %}
+
+            {% if feature.trl %}
+              <div class="col-auto"> 
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                  <img src="{{ feature.trl }}" alt="TRL" />
+                </a> 
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+<div class="strip" style="background: #9acef8;">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1 class="title">Digital Twin</h1>
+    <h5>{{ site.data.layers.digitaltwin }}</h5>
+    <div class="row justify-content-start">
+      {% assign digitaltwin = site.digitaltwin | sort: "weight" %}
+      {% for feature in digitaltwin %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #253761;">
+          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
+          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
+          <div class="row justify-content-center">
+            
+            {% if feature.link %}
+              <div class="col-auto">
+                <a href="{{ feature.link }}" target="blank"> 
+                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.github %}
+              <div class="col-auto">
+                <a href="{{ feature.github }}" target="blank"> 
+                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.license %}
+              <div class="col-auto"> 
+                <img src="{{ feature.license }}" alt="License" />
+              </div>
+            {% endif %}
+
+            {% if feature.trl %}
+              <div class="col-auto"> 
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                  <img src="{{ feature.trl }}" alt="TRL" />
+                </a> 
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+
+<div class="strip" style="background: #6eb8f5;">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1 class="title">Service Layer</h1>
+    <h5>{{ site.data.layers.servicelayer }}</h5>
+    <div class="row justify-content-start">
+      {% assign servicelayer = site.servicelayer | sort: "weight" %}
+      {% for feature in servicelayer %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #253761;">
+          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
+          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
+          <div class="row justify-content-center">
+            
+            {% if feature.link %}
+              <div class="col-auto">
+                <a href="{{ feature.link }}" target="blank"> 
+                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.github %}
+              <div class="col-auto">
+                <a href="{{ feature.github }}" target="blank"> 
+                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.license %}
+              <div class="col-auto"> 
+                <img src="{{ feature.license }}" alt="License" />
+              </div>
+            {% endif %}
+
+            {% if feature.trl %}
+              <div class="col-auto"> 
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                  <img src="{{ feature.trl }}" alt="TRL" />
+                </a> 
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+
+<div class="strip" style="background: #2196f3;">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1 class="title">User Interface</h1>
+    <h5>{{ site.data.layers.userinterface }}</h5>
+    <div class="row justify-content-start">
+      {% assign userinterface = site.userinterface | sort: "weight" %}
+      {% for feature in userinterface %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #253761;">
+          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
+          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
+          <div class="row justify-content-center">
+            
+            {% if feature.link %}
+              <div class="col-auto">
+                <a href="{{ feature.link }}" target="blank"> 
+                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.github %}
+              <div class="col-auto">
+                <a href="{{ feature.github }}" target="blank"> 
+                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.license %}
+              <div class="col-auto"> 
+                <img src="{{ feature.license }}" alt="License" />
+              </div>
+            {% endif %}
+
+            {% if feature.trl %}
+              <div class="col-auto"> 
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                  <img src="{{ feature.trl }}" alt="TRL" />
+                </a> 
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+
+<div class="strip" style="background: #0f86e7;">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1 class="title">Connectivity and Intergration</h1>
+    <h5 style="color: #ffffff">{{ site.data.layers.connectivity }}</h5>
+    <div class="row justify-content-start">
+      {% assign connectivity = site.connectivity | sort: "weight" %}
+      {% for feature in connectivity %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #253761;">
+          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
+          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
+          <div class="row justify-content-center">
+            
+            {% if feature.link %}
+              <div class="col-auto">
+                <a href="{{ feature.link }}" target="blank"> 
+                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.github %}
+              <div class="col-auto">
+                <a href="{{ feature.github }}" target="blank"> 
+                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.license %}
+              <div class="col-auto"> 
+                <img src="{{ feature.license }}" alt="License" />
+              </div>
+            {% endif %}
+
+            {% if feature.trl %}
+              <div class="col-auto"> 
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                  <img src="{{ feature.trl }}" alt="TRL" />
+                </a> 
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+<div class="strip" style="background: #055fc7;">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <h1 class="title">SSH and Ethics</h1>
+    <h5 style="color: #ffffff">{{ site.data.layers.ssh }}</h5>
+    <div class="row justify-content-start">
+      {% assign ssh = site.ssh | sort: "weight" %}
+      {% for feature in ssh %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #253761;">
+          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
+          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
+          <div class="row justify-content-center">
+            
+            {% if feature.link %}
+              <div class="col-auto">
+                <a href="{{ feature.link }}" target="blank"> 
+                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.github %}
+              <div class="col-auto">
+                <a href="{{ feature.github }}" target="blank"> 
+                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
+                </a> 
+              </div>
+            {% endif %}
+
+            {% if feature.license %}
+              <div class="col-auto"> 
+                <img src="{{ feature.license }}" alt="License" />
+              </div>
+            {% endif %}
+
+            {% if feature.trl %}
+              <div class="col-auto"> 
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                  <img src="{{ feature.trl }}" alt="TRL" />
+                </a> 
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
