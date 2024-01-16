@@ -89,7 +89,7 @@ bodyClass: "page-home"
 <div class="strip" style="background: #d5edff;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">Physical Twin</h1>
-    <h5>{{ site.data.layers.physicaltwin }}</h5>
+    <h5 style="text-align: justify;">{{ site.data.layers.physicaltwin }}</h5>
     <div class="row justify-content-start">
       {% assign physicaltwin = site.physicaltwin | sort: "weight" %}
       {% for feature in physicaltwin %}
@@ -140,7 +140,7 @@ bodyClass: "page-home"
 <div class="strip" style="background: #9eecff;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">Data Layer</h1>
-    <h5>{{ site.data.layers.datalayer }}</h5>
+    <h5 style="text-align: justify;">{{ site.data.layers.datalayer }}</h5>
     <div class="row justify-content-start">
       {% assign datalayer = site.datalayer | sort: "weight" %}
       {% for feature in datalayer %}
@@ -191,7 +191,7 @@ bodyClass: "page-home"
 <div class="strip" style="background: #9acef8;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">Digital Twin</h1>
-    <h5>{{ site.data.layers.digitaltwin }}</h5>
+    <h5 style="text-align: justify;">{{ site.data.layers.digitaltwin }}</h5>
     <div class="row justify-content-start">
       {% assign digitaltwin = site.digitaltwin | sort: "weight" %}
       {% for feature in digitaltwin %}
@@ -243,7 +243,7 @@ bodyClass: "page-home"
 <div class="strip" style="background: #6eb8f5;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">Service Layer</h1>
-    <h5>{{ site.data.layers.servicelayer }}</h5>
+    <h5 style="text-align: justify;">{{ site.data.layers.servicelayer }}</h5>
     <div class="row justify-content-start">
       {% assign servicelayer = site.servicelayer | sort: "weight" %}
       {% for feature in servicelayer %}
@@ -295,7 +295,7 @@ bodyClass: "page-home"
 <div class="strip" style="background: #2196f3;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">User Interface</h1>
-    <h5>{{ site.data.layers.userinterface }}</h5>
+    <h5 style="text-align: justify;">{{ site.data.layers.userinterface }}</h5>
     <div class="row justify-content-start">
       {% assign userinterface = site.userinterface | sort: "weight" %}
       {% for feature in userinterface %}
@@ -347,7 +347,7 @@ bodyClass: "page-home"
 <div class="strip" style="background: #0f86e7;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">Connectivity and Intergration</h1>
-    <h5 style="color: #ffffff">{{ site.data.layers.connectivity }}</h5>
+    <h5 style="color: #ffffff; text-align: justify;">{{ site.data.layers.connectivity }}</h5>
     <div class="row justify-content-start">
       {% assign connectivity = site.connectivity | sort: "weight" %}
       {% for feature in connectivity %}
@@ -398,7 +398,7 @@ bodyClass: "page-home"
 <div class="strip" style="background: #055fc7;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">SSH and Ethics</h1>
-    <h5 style="color: #ffffff">{{ site.data.layers.ssh }}</h5>
+    <h5 style="color: #ffffff ; text-align: justify;">{{ site.data.layers.ssh }}</h5>
     <div class="row justify-content-start">
       {% assign ssh = site.ssh | sort: "weight" %}
       {% for feature in ssh %}
