@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-Cogniman-fav-16x16">
+      <rect width="16" height="16"></rect>
+    </clipPath>
+  </defs>
+  <g id="Cogniman-fav-16x16" clip-path="url(#clip-Cogniman-fav-16x16)">
+    <rect width="16" height="16" fill="#fff"></rect>
+    <g id="Group_23" data-name="Group 23" transform="translate(72.08 9.566)">
+      <rect id="Rectangle_655" data-name="Rectangle 655" width="16" height="16" transform="translate(-72.08 -9.566)" fill="#385492"></rect>
+      <path id="Path_18" data-name="Path 18" d="M302.1,494.047a4.944,4.944,0,0,0-2.24-.514,5.639,5.639,0,0,0-2.066.376,4.991,4.991,0,0,0-1.662,1.046,4.9,4.9,0,0,0-1.1,1.6,5.063,5.063,0,0,0-.4,2.046,4.749,4.749,0,0,0,.422,2.028,4.9,4.9,0,0,0,1.129,1.56,4.954,4.954,0,0,0,1.634,1,5.516,5.516,0,0,0,1.955.349A5.883,5.883,0,0,0,302.1,503v-2.826a2.748,2.748,0,0,1-1.744.642,2.446,2.446,0,0,1-.9-.165,2.085,2.085,0,0,1-.725-.468,2.22,2.22,0,0,1-.477-.716,2.3,2.3,0,0,1-.174-.908,2.355,2.355,0,0,1,.174-.927,2.145,2.145,0,0,1,.487-.716,2.2,2.2,0,0,1,.725-.468,2.375,2.375,0,0,1,.89-.165,3.077,3.077,0,0,1,1.744.587v-2.826Z" transform="translate(-362.707 -500.099)" fill="#fff"></path>
+    </g>
+  </g>
+</svg>
