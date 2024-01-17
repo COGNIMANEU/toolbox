@@ -26,12 +26,17 @@ The framework is meant to help factories IT personnel in the process of represen
 
 Figure 1 provides illustration of the four-layer software architecture of SINDIT along with various technologies deployed in the stack. The data layer contains all persistent storage back-ends – both those managed by SINDIT as well as those managed by third parties. The business layer contains (i) descriptions of machines and processes, (ii) services for event detection and capacity estimation, and (iii) ingestion of and federated access to relevant data sources. The application layer exposes the relevant outputs of the business logic. These can be consumed either by SINDIT’s own presentation layer or by authorized third parties. The physical assets comprise the physical layer which is not discussed here.
 
-![SINDITArchitecture](images/sindit/SINDIT_software_architecture.png)
+![SINDITArchitecture](/images/sindit/SINDIT_software_architecture.png)
+*Figure 1: SINDIT Software Architecture [1]*
 
 ## License
-MIT License
+SINDIT is provided as an open-source software availalbe at [SINDIT GitHub Repository](https://github.com/SINTEF-9012/SINDIT) under MIT License.
+
+## TRL
+TRL4 – a protype based on a Python stack is implemented at this stage and validated in lab setting.
 
 ## Pilot
 To be used in Pilot 1 and 4.
 
 ## References
+[1] Waszak, Maryna, An Ngoc Lam, Volker Hoffmann, Brian Elvesæter, Maria Flavia Mogos, and Dumitru Roman. "Let the asset decide: digital twins with knowledge graphs." In 2022 IEEE 19th International Conference on Software Architecture Companion (ICSA-C), pp. 35-39. IEEE, 2022.
