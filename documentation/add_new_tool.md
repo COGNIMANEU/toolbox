@@ -56,7 +56,7 @@ Select relevant license badge for your tool. Refer to [this page](https://gist.g
 
 #### Apache 2.0 License
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)  
-`https://img.shields.io/badge/License-Apache%202.0-blue`
+`https://img.shields.io/badge/License-Apache%202.0-yellowgreen`
 
 #### BSD 3-Clause License
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-orange.svg)](https://opensource.org/licenses/BSD-3-Clause)  
