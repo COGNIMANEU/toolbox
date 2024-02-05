@@ -87,11 +87,11 @@ Select relevant license badge for your tool. Refer to [this page](https://gist.g
 `https://img.shields.io/badge/License-MPL%202.0-brightgreen`
 
 #### The Unlicense
-[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-lightgrey)](http://unlicense.org)
+[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-lightgrey)](http://unlicense.org)    
 `https://img.shields.io/badge/License-Unlicense-lightgrey`
 
 #### Commercial Product
-![License: Unlicense](https://img.shields.io/badge/License-Copyright%20%C2%A9-red)
+![License: Unlicense](https://img.shields.io/badge/License-Copyright%20%C2%A9-red)  
 `https://img.shields.io/badge/License-Copyright%20%C2%A9-red`
 
 ### TRL
