@@ -75,7 +75,7 @@ Select relevant license badge for your tool. Refer to [this page](https://gist.g
 `https://img.shields.io/badge/License-GPL%20v3-blue`
 
 #### IBM Public License Version 1.0
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)  
+[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/license/ibmpl-php/)  
 `https://img.shields.io/badge/License-IPL%201.0-blue`
 
 #### The MIT License
