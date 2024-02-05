@@ -40,6 +40,7 @@ The **second section** of the template is the content of the tool page. We use `
 - **Pilot**: Specify in which pilot(s) your tool is intended to be used.
 - **References**: Include any relevant references or citations.
 
+Once the tool description file has been pushed to the GitHub repository, the webpage will be compiled and deployed again. Please refer to the [Actions](https://github.com/COGNIMANEU/toolbox/actions) tab to check for any errors.
 
 ### Images
 Store images inside the [images](/images) directory. Create a subdirectory named after your tool and place your images there. To use the images, use:
