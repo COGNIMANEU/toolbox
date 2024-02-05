@@ -14,6 +14,7 @@ The tool description template can be found [here](/documentation/example_tool_te
 The **first section** of the template contains the meta-data (front matter) of the tool, which will be used to present the tool on the main page of the portal. The front matter is set between the triple-dashed lines:
 
 ```
+---
 title: "Your tool Title"
 date: 2024-01-16T12:00:00+00:00
 weight: 1
@@ -22,6 +23,7 @@ license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
 trl: "https://img.shields.io/badge/TRL-8-green"
 link: "http://mytool.ex"
 github: "https://github.com/tool"
+---
 ```
 - **Title**: Replace with the actual title of your tool.
 - **Date**: Update the date to the current date or leave it as is.
