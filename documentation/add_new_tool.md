@@ -1,6 +1,6 @@
 # Add or Update new tool to the toolbox
 The COGNIMAN Toolbox is structured according to the COGNIMAN Reference Architecture which consists of seven layers. To add your tool to the portal, first identify the layer to which your tool belong and add the description file (markdown format) to the corresponding directory in the repository. The directories are underscore prefixed:
-- [_physicaltwin](/toolbox/_physicaltwin): Physical Twin
+- [_physicaltwin](/_physicaltwin): Physical Twin
 - [_datalayer](/toolbox/tree/master/_datalayer): Data Layer
 - [_digitaltwin](/toolbox/tree/master/_digitaltwin): Digital Twin 
 - [_servicelayer](/toolbox/tree/master/_digitaltwin): Service Layer
