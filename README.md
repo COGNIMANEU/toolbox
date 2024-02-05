@@ -34,3 +34,6 @@ To build the theme.
 ```
 bundle exec jekyll build
 ```
+
+## License
+The page is created based on the free Jekyll theme by www.zerostatic.io, under the MIT license.
