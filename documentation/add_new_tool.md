@@ -1,5 +1,5 @@
 # Add or Update new tool to the toolbox
-The COGNIMAN Toolbox is structured according to the COGNIMAN Reference Architecture which consists of seven layers. To add your tool to the portal, first identify the layer to which your tool belong and add the description file (markdown format) to the corresponding directory in the repository. The directories are underscore prefixed:
+The COGNIMAN Toolbox is structured according to the COGNIMAN Reference Architecture, which consists of seven layers. To add your tool to the portal, first, identify the layer to which your tool belongs and add the description file (in Markdown format) to the corresponding directory in the repository. The directories are underscore-prefixed:
 - [_physicaltwin](/_physicaltwin): Physical Twin
 - [_datalayer](/_datalayer): Data Layer
 - [_digitaltwin](/_digitaltwin): Digital Twin 
@@ -9,9 +9,10 @@ The COGNIMAN Toolbox is structured according to the COGNIMAN Reference Architect
 - [_ssh](/_connectivity): SSH and Ethics
 
 ## Documentation Template
-The tool description template can be found [here](/documentation/example_tool_template.md). An exapmle of the descrption have been done for SINDIT which can be found [here](/_digitaltwin/sindit.md)
+The tool description template can be found [here](/documentation/example_tool_template.md). An example of the description has been completed for SINDIT, which can be found [here](/_digitaltwin/sindit.md).
 
-The **first section** of the template contains the meta-data (front matter) of the tool which will be used to present the tool in the main page of the portal. The front matter is set between the triple-dashed lines:
+The **first section** of the template contains the meta-data (front matter) of the tool, which will be used to present the tool on the main page of the portal. The front matter is set between the triple-dashed lines:
+
 ```
 title: "Your tool Title"
 date: 2024-01-16T12:00:00+00:00
@@ -23,11 +24,11 @@ link: "http://mytool.ex"
 github: "https://github.com/tool"
 ```
 - **Title**: Replace with the actual title of your tool.
-- **Date**: Update the date to the current date. Otherwise, leave it as it is. Please conform to the date template.
-- **Weight**: Define the order in which the tool will be shown in the category. To put the tool to the end of the list, please put here the number of the current tool plus 1.
+- **Date**: Update the date to the current date or leave it as is.
+- **Weight**: Define the order in which the tool will be shown in the category. To place the tool at the end of the list, please enter the current tool number plus 1.
 - **Description**: Replace with a concise description of your tool.
 - **License**: Replace the license URL with the appropriate license for your tool. Please refer to [License](#license) for more information.
-- **TRL**: Update the TRL (Technology Readiness Level) badge link with the correct status. Please refere to [TRL](#trl) for more information.
+- **TRL**: Update the TRL (Technology Readiness Level) badge link with the correct status. Please refer to [TRL](#trl) for more information.
 - **Link** (optional): Replace with the official link to your tool's website. Otherwise, remove this entry.
 - **GitHub** (optional): Replace with the official GitHub repository link for your tool. Otherwise, remove this entry.
 
@@ -41,11 +42,13 @@ The **second section** of the template is the content of the tool page. We use `
 
 
 ### Images
-Images should be stored inside the [images](/images) directory. Create a sub directory named with your tool name and put your images there. To use the images, use:
+Store images inside the [images](/images) directory. Create a subdirectory named after your tool and place your images there. To use the images, use:
 `![image_alt_text](/toolbox/images/link/to/your/image)` 
 
+**Note:** Using the link syntax above, the image may not display on the GitHub interface, but it will be shown properly on the portal website.
+
 ### License
-Select relevant license badge for your tool. Refer to [this page](https://gist.github.com/kofiav/c1059e1075b67582e86b07aa9759e20d) if you can not find your desire one.
+Select relevant license badge for your tool. Refer to [this page](https://gist.github.com/kofiav/c1059e1075b67582e86b07aa9759e20d) if you can not find your desired one.
 
 #### Apache 2.0 License
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)  
