@@ -1,9 +1,9 @@
 # COGNIMAN Toolbox Portal
 
 ## Description
-This is the repository of the COGNIMAN Toolbox Portal, presenting information about the tools developed or used within the COGNIMAN Project.
+This is the repository of the COGNIMAN Toolbox Portal, presenting information about the tools developed or used within the COGNIMAN Project. The website is accessible at: https://cognimaneu.github.io/toolbox/
 
-For instructions on how to update/add your tool to the toolbox, please refer to this [instruction](documentation/add_new_tool.md).
+For instructions on how to update/add your tool, please refer to this [instruction](documentation/add_new_tool.md).
 
 
 

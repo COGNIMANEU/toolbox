@@ -1,4 +1,4 @@
-# Add or Update new tool to the toolbox
+# Add new tool to the toolbox
 The COGNIMAN Toolbox is structured according to the COGNIMAN Reference Architecture, which consists of seven layers. To add your tool to the portal, first, identify the layer to which your tool belongs and add the description file (in Markdown format) to the corresponding directory in the repository. The directories are underscore-prefixed:
 - [_physicaltwin](/_physicaltwin): Physical Twin
 - [_datalayer](/_datalayer): Data Layer
@@ -28,7 +28,7 @@ github: "https://github.com/tool"
 - **Title**: Replace with the actual title of your tool.
 - **Date**: Update the date to the current date or leave it as is.
 - **Weight**: Define the order in which the tool will be shown in the category. To place the tool at the end of the list, please enter the current tool number plus 1.
-- **Description**: Replace with a concise description of your tool.
+- **Description**: Replace with a concise description of your tool. Max 120 characters.
 - **License**: Replace the license URL with the appropriate license for your tool. Please refer to [License](#license) for more information.
 - **TRL**: Update the TRL (Technology Readiness Level) badge link with the correct status. Please refer to [TRL](#trl) for more information.
 - **Link** (optional): Replace with the official link to your tool's website. Otherwise, remove this entry.
