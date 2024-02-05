@@ -39,6 +39,7 @@ The **second section** of the template is the content of the tool page. We use `
 - **Defined in Task**: Replace with the relevant task details.
 - **Description**: Replace with a comprehensive overview of your tool. Describe interfaces, APIs, and the main purpose or functionality.
 - **License**: Provide usage restriction and information about the license under which your tool is distributed.
+- **TRL**: TRL level and further related information.
 - **Pilot**: Specify in which pilot(s) your tool is intended to be used.
 - **References**: Include any relevant references or citations.
 
