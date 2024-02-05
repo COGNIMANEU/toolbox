@@ -3,7 +3,7 @@ title: "SINDIT"
 date: 2024-01-16T12:00:00+00:00
 weight: 1
 description: "Knowledge Graph Based Digital Twin Framework."
-license: "https://img.shields.io/badge/license-MIT-blue"
+license: "https://img.shields.io/badge/License-MIT-yellow"
 trl: "https://img.shields.io/badge/TRL-4-yellow"
 link: "https://sindit.sintef.cloud/"
 github: "https://github.com/SINTEF-9012/SINDIT"

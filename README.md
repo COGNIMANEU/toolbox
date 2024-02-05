@@ -1,9 +1,10 @@
 # COGNIMAN Toolbox Portal
 
 ## Description
-This is the repository of the COGNIMAN Toolbox Portal. The portal presents the information of the tools that are developed or used within the COGNIMAN Project.
+This is the repository of the COGNIMAN Toolbox Portal, presenting information about the tools developed or used within the COGNIMAN Project.
 
-For information about how to update/add your tool to toolbox, please refer to this [instruction](documentation/add_new_tool.md)
+For instructions on how to update/add your tool to the toolbox, please refer to this [instruction](documentation/add_new_tool.md).
+
 
 
 ## To run the webpage locally
