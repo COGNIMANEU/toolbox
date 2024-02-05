@@ -1,15 +1,15 @@
 # Add or Update new tool to the toolbox
 The COGNIMAN Toolbox is structured according to the COGNIMAN Reference Architecture which consists of seven layers. To add your tool to the portal, first identify the layer to which your tool belong and add the description file (markdown format) to the corresponding directory in the repository. The directories are underscore prefixed:
-- [_physicaltwin](toolbox/tree/master/_physicaltwin): Physical Twin
-- [_datalayer](toolbox/tree/master/_datalayer): Data Layer
-- [_digitaltwin](toolbox/tree/master/_digitaltwin): Digital Twin 
-- [_servicelayer](toolbox/tree/master/_digitaltwin): Service Layer
-- [_userinterface](toolbox/tree/master/_userinterface): User Interface
-- [_connectivity](toolbox/tree/master/_connectivity): Connectivity and Intergration
-- [_ssh](toolbox/tree/master/_connectivity): SSH and Ethics
+- [_physicaltwin](/toolbox/tree/master/_physicaltwin): Physical Twin
+- [_datalayer](/toolbox/tree/master/_datalayer): Data Layer
+- [_digitaltwin](/toolbox/tree/master/_digitaltwin): Digital Twin 
+- [_servicelayer](/toolbox/tree/master/_digitaltwin): Service Layer
+- [_userinterface](/toolbox/tree/master/_userinterface): User Interface
+- [_connectivity](/toolbox/tree/master/_connectivity): Connectivity and Intergration
+- [_ssh](/toolbox/tree/master/_connectivity): SSH and Ethics
 
 ## Documentation Template
-The tool description template can be found [here](toolbox/documentation/example_tool_template.md). An exapmle of the descrption have been done for SINDIT which can be found [here](toolbox/_digitaltwin/sindit.md)
+The tool description template can be found [here](/toolbox/documentation/example_tool_template.md). An exapmle of the descrption have been done for SINDIT which can be found [here](/toolbox/_digitaltwin/sindit.md)
 
 The **first section** of the template contains the meta-data (front matter) of the tool which will be used to present the tool in the main page of the portal. The front matter is set between the triple-dashed lines:
 ```
@@ -41,7 +41,7 @@ The **second section** of the template is the content of the tool page. We use `
 
 
 ### Images
-Images should be stored inside the [images](toolbox/tree/master/images) directory. Create a sub directory named with your tool name and put your images there. To use the images, use:
+Images should be stored inside the [images](/toolbox/tree/master/images) directory. Create a sub directory named with your tool name and put your images there. To use the images, use:
 `![image_alt_text](/toolbox/images/link/to/your/image)` 
 
 ### License
