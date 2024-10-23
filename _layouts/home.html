@@ -41,27 +41,27 @@ bodyClass: "page-home"
   </div>
 </div> -->
 
-<!-- <div class="strip" style="background: #D7E9B9;">
+<div class="strip" style="background: #D7E9B9;">
   <div class="container pt-6 pb-6 pb-md-10">
     <h1 class="title">Digital Twin Pipelines</h1>
     <div class="row justify-content-start">
-      {% assign pipelines = site.pipelines | sort: "weight" %}
-      {% for service in pipelines %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h3 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+      {% assign pilots = site.pilots | sort: "weight" %}
+      {% for pilot in pilots %}
+      <div class="col-12 col-md-3 mb-1">
+        <div class="pilot pilot-summary">
+          <div class="pilot-content">
+            <h3 class="pilot-title">
+              <a href="{{ pilot.url | relative_url }}">{{ pilot.title }}</a>
             </h3>
-            <p>{{ service.description}}</p>
+            <p>{{ pilot.description }}</p>
           </div>
         </div>
       </div>
       {% endfor %}
     </div>
-    </div>
   </div>
-</div> -->
+</div>
+
 
 
 <!-- {% if site.data.features %}

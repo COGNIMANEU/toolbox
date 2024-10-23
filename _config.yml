@@ -12,7 +12,7 @@ logo:
 
 collections:
 
-  pipelines:
+  pilots:
     output: true
     sort_by: weight
 
@@ -53,9 +53,9 @@ defaults:
   
   - scope:
       path: ""
-      type: "pipelines"
+      type: "pilots"
     values:
-      layout: "pipeline"
+      layout: "pilot"
   
   - scope:
       path: ""
