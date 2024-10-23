@@ -16,31 +16,7 @@ bodyClass: "page-home"
 </div>
 
 
-<!-- <div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
-    </div>
-  </div>
-</div> -->
-
+<!-- Section 1: Digital Twin Pipelines -->
 <div class="strip" style="background: #D7E9B9;">
   <div class="container pt-6 pb-6 pb-md-10">
     <h1 class="title">Digital Twin Pipelines</h1>
@@ -63,32 +39,16 @@ bodyClass: "page-home"
 </div>
 
 
-
-<!-- {% if site.data.features %}
-<div class="strip strip-grey">
+<!-- Section 2: Toolbox -->
+<div class="strip" style="background: #F4F4F4;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
+    <h1 class="title">Toolbox Components</h1>
 
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
 
-    </div>
-  </div>
-</div>
-{% endif %} -->
-
+<!-- Subsection: Physical Twin -->
 <div class="strip" style="background: #d5edff;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1 class="title">Physical Twin</h1>
+    <h2 class="title">Physical Twin</h2>
     <h5 style="text-align: justify;">{{ site.data.layers.physicaltwin }}</h5>
     <div class="row justify-content-start">
       {% assign physicaltwin = site.physicaltwin | sort: "weight" %}
@@ -137,9 +97,10 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" style="background: #9eecff;">
+<!-- Subsection: Data Layer -->
+<div class="strip" style="background: #b3e5fc;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1 class="title">Data Layer</h1>
+    <h2 class="title">Data Layer</h2>
     <h5 style="text-align: justify;">{{ site.data.layers.datalayer }}</h5>
     <div class="row justify-content-start">
       {% assign datalayer = site.datalayer | sort: "weight" %}
@@ -188,9 +149,11 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" style="background: #9acef8;">
+<!-- Subsection: Digital Twin Representation -->
+
+<div class="strip" style="background: #81d4fa;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1 class="title">Digital Twin</h1>
+    <h2 class="title">Digital Twin Representation</h2>
     <h5 style="text-align: justify;">{{ site.data.layers.digitaltwin }}</h5>
     <div class="row justify-content-start">
       {% assign digitaltwin = site.digitaltwin | sort: "weight" %}
@@ -239,10 +202,10 @@ bodyClass: "page-home"
   </div>
 </div>
 
-
-<div class="strip" style="background: #6eb8f5;">
+<!-- Subsection: Service Layer -->
+<div class="strip" style="background: #4fc3f7;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1 class="title">Service Layer</h1>
+    <h2 class="title">Service Layer</h2>
     <h5 style="text-align: justify;">{{ site.data.layers.servicelayer }}</h5>
     <div class="row justify-content-start">
       {% assign servicelayer = site.servicelayer | sort: "weight" %}
@@ -291,10 +254,10 @@ bodyClass: "page-home"
   </div>
 </div>
 
-
-<div class="strip" style="background: #2196f3;">
+<!-- Subsection: User Interface -->
+<div class="strip" style="background: #29b6f6;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1 class="title">User Interface</h1>
+    <h2 class="title">User Interface</h2>
     <h5 style="text-align: justify;">{{ site.data.layers.userinterface }}</h5>
     <div class="row justify-content-start">
       {% assign userinterface = site.userinterface | sort: "weight" %}
@@ -343,10 +306,10 @@ bodyClass: "page-home"
   </div>
 </div>
 
-
-<div class="strip" style="background: #0f86e7;">
+<!-- Subsection: Connectivity and Intergration -->
+<div class="strip" style="background: #03a9f4;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1 class="title">Connectivity and Intergration</h1>
+    <h2 class="title">Connectivity and Intergration</h2>
     <h5 style="color: #ffffff; text-align: justify;">{{ site.data.layers.connectivity }}</h5>
     <div class="row justify-content-start">
       {% assign connectivity = site.connectivity | sort: "weight" %}
@@ -395,9 +358,10 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip" style="background: #055fc7;">
+<!-- Subsection: SSH and Ethics -->
+<div class="strip" style="background: #0288d1;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1 class="title">SSH and Ethics</h1>
+    <h2 class="title">SSH and Ethics</h2>
     <h5 style="color: #ffffff ; text-align: justify;">{{ site.data.layers.ssh }}</h5>
     <div class="row justify-content-start">
       {% assign ssh = site.ssh | sort: "weight" %}
