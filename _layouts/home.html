@@ -44,310 +44,67 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">Toolbox Components</h1>
 
+    <!-- Section 1: Physical Twin -->
+    {% include section.html 
+      background_color="#d5edff" 
+      section_title="Physical Twin" 
+      section_content=site.data.layers.physicaltwin 
+      text_color="#000000" 
+      section_items=site.physicaltwin 
+    %}
 
-<!-- Subsection: Physical Twin -->
-<div class="strip" style="background: #d5edff;">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h2 class="title">Physical Twin</h2>
-    <h5 style="text-align: justify;">{{ site.data.layers.physicaltwin }}</h5>
-    <div class="row justify-content-start">
-      {% assign physicaltwin = site.physicaltwin | sort: "weight" %}
-      {% for feature in physicaltwin %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature" style="border-radius: 10px; border: 2px solid #253761;">
-          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
-          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
-          <div class="d-flex justify-content-center align-items-center" style="gap: 10px;">
-            
-            {% if feature.link %}
-              <a href="{{ feature.link }}" target="blank"> 
-                <img src="/toolbox/images/home.svg" alt="external logo" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
+    <!-- Section 2: Data Layer -->
+    {% include section.html 
+      background_color="#b3e5fc" 
+      section_title="Data Layer" 
+      section_content=site.data.layers.datalayer 
+      text_color="#000000" 
+      section_items=site.datalayer 
+    %}
 
-            {% if feature.github %}
-              <a href="{{ feature.github }}" target="blank"> 
-                <img src="/toolbox/images/github-mark.svg" alt="github" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
+    <!-- Section 3: Digital Twin Representation -->
+    {% include section.html 
+      background_color="#81d4fa" 
+      section_title="Digital Twin Representation" 
+      section_content=site.data.layers.digitaltwin 
+      text_color="#000000" 
+      section_items=site.digitaltwin 
+    %}
 
-            {% if feature.license %}
-              <img src="{{ feature.license }}" alt="License" style="max-height: 24px; width: auto;" />
-            {% endif %}
+    <!-- Section 4: Service Layer -->
+    {% include section.html 
+      background_color="#4fc3f7" 
+      section_title="Service Layer" 
+      section_content=site.data.layers.servicelayer 
+      text_color="#000000" 
+      section_items=site.servicelayer 
+    %}
 
-            {% if feature.trl %}
-              <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
-                <img src="{{ feature.trl }}" alt="TRL" style="max-height: 24px; width: auto;" />
-              </a> 
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+    <!-- Section 5: User Interface -->
+    {% include section.html 
+      background_color="#29b6f6" 
+      section_title="User Interface" 
+      section_content=site.data.layers.userinterface 
+      text_color="#ffffff" 
+      section_items=site.userinterface 
+    %}
 
+    <!-- Section 6: Connectivity and Integration -->
+    {% include section.html 
+      background_color="#03a9f4" 
+      section_title="Connectivity and Integration" 
+      section_content=site.data.layers.connectivity 
+      text_color="#ffffff" 
+      section_items=site.connectivity 
+    %}
 
-
-<!-- Subsection: Data Layer -->
-<div class="strip" style="background: #b3e5fc;">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h2 class="title">Data Layer</h2>
-    <h5 style="text-align: justify;">{{ site.data.layers.datalayer }}</h5>
-    <div class="row justify-content-start">
-      {% assign datalayer = site.datalayer | sort: "weight" %}
-      {% for feature in datalayer %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature" style="border-radius: 10px; border: 2px solid #253761;">
-          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
-          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
-          <div class="d-flex justify-content-center align-items-center" style="gap: 10px;">
-            
-            {% if feature.link %}
-              <a href="{{ feature.link }}" target="blank"> 
-                <img src="/toolbox/images/home.svg" alt="external logo" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.github %}
-              <a href="{{ feature.github }}" target="blank"> 
-                <img src="/toolbox/images/github-mark.svg" alt="github" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.license %}
-              <img src="{{ feature.license }}" alt="License" style="max-height: 24px; width: auto;" />
-            {% endif %}
-
-            {% if feature.trl %}
-              <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
-                <img src="{{ feature.trl }}" alt="TRL" style="max-height: 24px; width: auto;" />
-              </a> 
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-<!-- Subsection: Digital Twin Representation -->
-<div class="strip" style="background: #81d4fa;">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h2 class="title">Digital Twin Representation</h2>
-    <h5 style="text-align: justify;">{{ site.data.layers.digitaltwin }}</h5>
-    <div class="row justify-content-start">
-      {% assign digitaltwin = site.digitaltwin | sort: "weight" %}
-      {% for feature in digitaltwin %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature" style="border-radius: 10px; border: 2px solid #253761;">
-          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
-          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
-          <div class="d-flex justify-content-center align-items-center" style="gap: 10px;">
-            
-            {% if feature.link %}
-              <a href="{{ feature.link }}" target="blank"> 
-                <img src="/toolbox/images/home.svg" alt="external logo" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.github %}
-              <a href="{{ feature.github }}" target="blank"> 
-                <img src="/toolbox/images/github-mark.svg" alt="github" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.license %}
-              <img src="{{ feature.license }}" alt="License" style="max-height: 24px; width: auto;" />
-            {% endif %}
-
-            {% if feature.trl %}
-              <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
-                <img src="{{ feature.trl }}" alt="TRL" style="max-height: 24px; width: auto;" />
-              </a> 
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-
-<!-- Subsection: Service Layer -->
-<div class="strip" style="background: #4fc3f7;">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h2 class="title">Service Layer</h2>
-    <h5 style="text-align: justify;">{{ site.data.layers.servicelayer }}</h5>
-    <div class="row justify-content-start">
-      {% assign servicelayer = site.servicelayer | sort: "weight" %}
-      {% for feature in servicelayer %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature" style="border-radius: 10px; border: 2px solid #253761;">
-          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
-          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
-          <div class="d-flex justify-content-center align-items-center" style="gap: 10px;">
-            
-            {% if feature.link %}
-              <a href="{{ feature.link }}" target="blank"> 
-                <img src="/toolbox/images/home.svg" alt="external logo" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.github %}
-              <a href="{{ feature.github }}" target="blank"> 
-                <img src="/toolbox/images/github-mark.svg" alt="github" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.license %}
-              <img src="{{ feature.license }}" alt="License" style="max-height: 24px; width: auto;" />
-            {% endif %}
-
-            {% if feature.trl %}
-              <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
-                <img src="{{ feature.trl }}" alt="TRL" style="max-height: 24px; width: auto;" />
-              </a> 
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-
-<!-- Subsection: User Interface -->
-<div class="strip" style="background: #29b6f6;">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h2 class="title">User Interface</h2>
-    <h5 style="text-align: justify;">{{ site.data.layers.userinterface }}</h5>
-    <div class="row justify-content-start">
-      {% assign userinterface = site.userinterface | sort: "weight" %}
-      {% for feature in userinterface %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature" style="border-radius: 10px; border: 2px solid #253761;">
-          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
-          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
-          <div class="d-flex justify-content-center align-items-center" style="gap: 10px;">
-            
-            {% if feature.link %}
-              <a href="{{ feature.link }}" target="blank"> 
-                <img src="/toolbox/images/home.svg" alt="external logo" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.github %}
-              <a href="{{ feature.github }}" target="blank"> 
-                <img src="/toolbox/images/github-mark.svg" alt="github" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.license %}
-              <img src="{{ feature.license }}" alt="License" style="max-height: 24px; width: auto;" />
-            {% endif %}
-
-            {% if feature.trl %}
-              <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
-                <img src="{{ feature.trl }}" alt="TRL" style="max-height: 24px; width: auto;" />
-              </a> 
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-
-<!-- Subsection: Connectivity and Intergration -->
-<div class="strip" style="background: #03a9f4;">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h2 class="title">Connectivity and Integration</h2>
-    <h5 style="color: #ffffff; text-align: justify;">{{ site.data.layers.connectivity }}</h5>
-    <div class="row justify-content-start">
-      {% assign connectivity = site.connectivity | sort: "weight" %}
-      {% for feature in connectivity %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature" style="border-radius: 10px; border: 2px solid #253761;">
-          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
-          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
-          <div class="d-flex justify-content-center align-items-center" style="gap: 10px;">
-            
-            {% if feature.link %}
-              <a href="{{ feature.link }}" target="blank"> 
-                <img src="/toolbox/images/home.svg" alt="external logo" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.github %}
-              <a href="{{ feature.github }}" target="blank"> 
-                <img src="/toolbox/images/github-mark.svg" alt="github" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.license %}
-              <img src="{{ feature.license }}" alt="License" style="max-height: 24px; width: auto;" />
-            {% endif %}
-
-            {% if feature.trl %}
-              <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
-                <img src="{{ feature.trl }}" alt="TRL" style="max-height: 24px; width: auto;" />
-              </a> 
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-
-<!-- Subsection: SSH and Ethics -->
-<div class="strip" style="background: #0288d1;">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h2 class="title">SSH and Ethics</h2>
-    <h5 style="color: #ffffff; text-align: justify;">{{ site.data.layers.ssh }}</h5>
-    <div class="row justify-content-start">
-      {% assign ssh = site.ssh | sort: "weight" %}
-      {% for feature in ssh %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature" style="border-radius: 10px; border: 2px solid #253761;">
-          <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
-          <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
-          <div class="d-flex justify-content-center align-items-center" style="gap: 10px;">
-            
-            {% if feature.link %}
-              <a href="{{ feature.link }}" target="blank"> 
-                <img src="/toolbox/images/home.svg" alt="external logo" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.github %}
-              <a href="{{ feature.github }}" target="blank"> 
-                <img src="/toolbox/images/github-mark.svg" alt="github" style="width: 24px; height: 24px;" /> 
-              </a> 
-            {% endif %}
-
-            {% if feature.license %}
-              <img src="{{ feature.license }}" alt="License" style="max-height: 24px; width: auto;" />
-            {% endif %}
-
-            {% if feature.trl %}
-              <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
-                <img src="{{ feature.trl }}" alt="TRL" style="max-height: 24px; width: auto;" />
-              </a> 
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    <!-- Section 7: SSH and Ethics -->
+    {% include section.html 
+      background_color="#0288d1" 
+      section_title="SSH and Ethics" 
+      section_content=site.data.layers.ssh 
+      text_color="#ffffff" 
+      section_items=site.ssh 
+    %}
   </div>
 </div>
