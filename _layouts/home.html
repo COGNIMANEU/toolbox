@@ -54,48 +54,41 @@ bodyClass: "page-home"
       {% assign physicaltwin = site.physicaltwin | sort: "weight" %}
       {% for feature in physicaltwin %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #253761;">
+        <div class="feature" style="border-radius: 10px; border: 2px solid #253761;">
           <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
           <div class="feature-content">{{ feature.description | truncate: 120 }}</div>
-          <div class="row justify-content-center">
+          <div class="d-flex justify-content-center align-items-center" style="gap: 10px;">
             
             {% if feature.link %}
-              <div class="col-auto">
-                <a href="{{ feature.link }}" target="blank"> 
-                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
-                </a> 
-              </div>
+              <a href="{{ feature.link }}" target="blank"> 
+                <img src="/toolbox/images/home.svg" alt="external logo" style="width: 24px; height: 24px;" /> 
+              </a> 
             {% endif %}
 
             {% if feature.github %}
-              <div class="col-auto">
-                <a href="{{ feature.github }}" target="blank"> 
-                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
-                </a> 
-              </div>
+              <a href="{{ feature.github }}" target="blank"> 
+                <img src="/toolbox/images/github-mark.svg" alt="github" style="width: 24px; height: 24px;" /> 
+              </a> 
             {% endif %}
 
             {% if feature.license %}
-              <div class="col-auto"> 
-                <img src="{{ feature.license }}" alt="License" />
-              </div>
+              <img src="{{ feature.license }}" alt="License" style="max-height: 24px; width: auto;" />
             {% endif %}
 
             {% if feature.trl %}
-              <div class="col-auto"> 
-                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
-                  <img src="{{ feature.trl }}" alt="TRL" />
-                </a> 
-              </div>
+              <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                <img src="{{ feature.trl }}" alt="TRL" style="max-height: 24px; width: auto;" />
+              </a> 
             {% endif %}
           </div>
         </div>
       </div>
       {% endfor %}
-
     </div>
   </div>
 </div>
+
+
 
 <!-- Subsection: Data Layer -->
 <div class="strip" style="background: #b3e5fc;">
