@@ -1,7 +1,7 @@
-<div class="strip" style="background: {{ background_color }};">
+<div class="strip" style="background: {{ background_color | default: '#ffffff' }};">
     <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
       <h2 class="title">{{ section_title }}</h2>
-      <h5 style="text-align: justify; color: {{ text_color }};">{{ section_content }}</h5>
+      <h5 style="text-align: justify; color: {{ text_color | default: '#000000' }};">{{ section_content }}</h5>
       <div class="row justify-content-start">
         {% assign items = section_items %}
         {% for feature in items %}
