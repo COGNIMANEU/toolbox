@@ -1,6 +1,5 @@
 ---
 title: "Human Machine Interface"
-date: 2024-01-16T12:00:00+00:00
 weight: 2
 description: "Software for human interaction (GOIMEK pilot)"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"

@@ -1,6 +1,5 @@
 ---
-title: "dashboard_croom"
-date: 2024-01-16T12:00:00+00:00
+title: "Dashboard CROOM"
 weight: 3
 description: "System interface to manage the manufacturing process... (CROOM pilot)"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"

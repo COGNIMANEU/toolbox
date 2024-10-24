@@ -1,6 +1,5 @@
 ---
 title: "Dashboard 3B"
-date: 2024-01-16T12:00:00+00:00
 weight: 1
 description: "User interface dashboard (3B Pilot)."
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
