@@ -35,7 +35,7 @@ Precision machining for deburring of large metal parts
 - [Autonomous navigation]({{ "/servicelayer/autonomous_navigation/" | relative_url }})
 - [Autonomous deburring]({{ "/servicelayer/autonomous_deburring/" | relative_url }})
 - [Deburring planning]({{ "/servicelayer/deburring_planning/" | relative_url }})
-- [Break Detector and characterization]({{ "/servicelayer/break_detector_characterization/" | relative_url }})
+- [Break Detector and characterization]({{ "/servicelayer/break_detector_and_characterization/" | relative_url }})
 - [Quality deburring feedback & improvement]({{ "/servicelayer/quality_deburring_feedback_improvement/" | relative_url }})
 - [Global mission control system]({{ "/servicelayer/global_mission_control_system/" | relative_url }})
 
