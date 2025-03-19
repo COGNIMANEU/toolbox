@@ -13,7 +13,6 @@ github: "https://github.com/COGNIMANEU/pilot02-physical-livox-lidar"
 Livox ROS 2 Driver for Lidar Sensors
 
 ## Description
-2xRidbadge Laser 2D (GOIMEK pilot)
 
 The **Livox ROS 2 Driver** is driver package for integrating Livox LiDAR devices into the ROS 2 ecosystem. This driver supports several Livox LiDAR products, enabling users to easily interface with these devices in ROS 2 environments.
 
