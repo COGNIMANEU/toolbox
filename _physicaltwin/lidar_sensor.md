@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Pilot02-Physical Livox Lidar ROS 2 Driver
-
-This repository contains the ROS 2 driver for **Pilot02-Physical Livox Lidar**. It includes all the necessary configurations, launch files, and a Docker setup to deploy the Livox Lidar driver in a containerized environment.
-=======
 ---
 title: "Livox ROS 2 Driver for Lidar Sensors"
 date: 2025-03-19T12:00:00+00:00
@@ -16,7 +11,6 @@ github: "https://github.com/COGNIMANEU/pilot02-physical-livox-lidar"
 
 ## Name
 Livox ROS 2 Driver for Lidar Sensors
->>>>>>> df72998ba3cc26445b2c2c80fc0b0033a8e63961
 
 ## Description
 
