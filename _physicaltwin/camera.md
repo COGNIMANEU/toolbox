@@ -29,4 +29,3 @@ Physical
 
 ## Partners
 3B
-
