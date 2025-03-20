@@ -100,4 +100,4 @@ Feel free to open issues or submit pull requests. Contributions are welcome!
 
 ## License
 
-This project is licensed under the Apache 2 Licences, but includes MIT License and 3-Clause BSD License components - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2 Licences, but includes MIT License and 3-Clause BSD License components - see the [LICENSE](https://github.com/COGNIMANEU/pilot02-physical-livox-lidar/blob/main/LICENSE) file for details.
