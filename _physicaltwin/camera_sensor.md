@@ -4,7 +4,7 @@ date: 2025-03-20T12:00:00+00:00
 weight: 2
 description: "AGV Camera sensor (GOIMEK pilot)"
 license: "https://img.shields.io/badge/License-Apache%202.0-yellowgreen"
-trl: "TRL https://img.shields.io/badge/TRL-9-green"
+trl: "https://img.shields.io/badge/TRL-9-green"
 link: "https://github.com/COGNIMANEU/pilot02-physical-blackfly-camera"
 github: "https://github.com/COGNIMANEU/pilot02-physical-blackfly-camera"
 ---
