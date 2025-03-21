@@ -1,6 +1,5 @@
 ---
 title: "Livox ROS 2 Driver for Lidar Sensors"
-date: 2025-03-19T12:00:00+00:00
 weight: 2
 description: "AGV Lidar sensor (GOIMEK pilot)"
 license: "https://img.shields.io/badge/License-Apache%202.0-yellowgreen"
