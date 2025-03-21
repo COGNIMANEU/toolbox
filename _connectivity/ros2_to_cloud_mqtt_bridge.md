@@ -1,6 +1,5 @@
 ---
 title: "ROS2 to Cloud MQTT Bridge"
-date: 2025-03-21T12:00:00+00:00
 weight: 2
 description: "Software to bridge edge-cloud ROS2 and MQTT messages"
 license: "https://img.shields.io/badge/License-MIT-yellow"
