@@ -26,7 +26,7 @@ The framework is meant to help factories IT personnel in the process of represen
 
 Figure 1 provides illustration of the four-layer software architecture of SINDIT along with various technologies deployed in the stack. The data layer contains all persistent storage back-ends – both those managed by SINDIT as well as those managed by third parties. The business layer contains (i) descriptions of machines and processes, (ii) services for event detection and capacity estimation, and (iii) ingestion of and federated access to relevant data sources. The application layer exposes the relevant outputs of the business logic. These can be consumed either by SINDIT’s own presentation layer or by authorized third parties. The physical assets comprise the physical layer which is not discussed here.
 
-![SINDITArchitecture](/toolbox/images/sindit/SINDIT_software_architecture.png)
+![SINDITArchitecture](/images/sindit/SINDIT_software_architecture.png)
 *Figure 1: SINDIT Software Architecture [1]*
 
 ## License

@@ -16,7 +16,6 @@ The **first section** of the template contains the meta-data (front matter) of t
 ```
 ---
 title: "Your tool Title"
-date: 2024-01-16T12:00:00+00:00
 weight: 1
 description: "Your tool short description goes here."
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
@@ -26,7 +25,6 @@ github: "https://github.com/tool"
 ---
 ```
 - **Title**: Replace with the actual title of your tool.
-- **Date**: Update the date to the current date or leave it as is.
 - **Weight**: Define the order in which the tool will be shown in the category. To place the tool at the end of the list, please enter the current tool number plus 1.
 - **Description**: Replace with a concise description of your tool. Max 120 characters.
 - **License**: Replace the license URL with the appropriate license for your tool. Please refer to [License](#license) for more information.
@@ -47,7 +45,7 @@ Once the tool description file has been pushed to the GitHub repository, the web
 
 ### Images
 Store images inside the [images](/images) directory. Create a subdirectory named after your tool and place your images there. To use the images, use:
-`![image_alt_text](/toolbox/images/link/to/your/image)` 
+`![image_alt_text](/images/link/to/your/image)` 
 
 **Note:** Using the link syntax above, the image may not display on the GitHub interface, but it will be shown properly on the portal website.
 
