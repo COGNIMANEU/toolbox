@@ -1,5 +1,5 @@
 ---
-title: "ROS2MQTTJsonBridge ROS2 to Cloud JSON MQTT Bridge"
+title: "ROS2 to Cloud JSON MQTT Bridge"
 weight: 2
 description: "Software to bridge edge-cloud ROS2 and MQTT including a json serialization/deserializacion of messages"
 license: "https://img.shields.io/badge/License-Apache%202.0-yellowgreen"
