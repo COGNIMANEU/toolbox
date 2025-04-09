@@ -36,7 +36,7 @@ Connectivity
 2.8
 
 ## Partners
-ITA
+![ITA Logo](/images/ita/italogo.jpg)
 
 ## Pilot
 To be used in all pilots that employ ROS2 for robot integration with the digital twin, specifically the GOIMEK pilot. This component acts as an MQTT broker to build a distributed software architecture, serving as a message mediator between the edge ROS2 components and the cloud-based digital twin components.

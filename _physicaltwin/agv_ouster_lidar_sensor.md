@@ -41,7 +41,7 @@ Physical
 - 2.7 Semantic map generation
 
 ## Partners
-ITA
+![ITA Logo](/images/ita/italogo.jpg)
 
 ## Pilot
 
