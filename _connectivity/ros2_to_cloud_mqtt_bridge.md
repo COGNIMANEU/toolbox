@@ -33,7 +33,7 @@ Connectivity
 2.8
 
 ## Partners
-ITA
+![ITA Logo](/images/ita/italogo.jpg)
 
 ## Pilot
 To be used in all pilots that employ ROS2 for robot integration with the digital twin, specifically the GOIMEK pilot. This component ensures smooth interaction between edge robotics running on ROS2 and their digital twin counterparts, enabling more efficient remote operations and monitoring.
