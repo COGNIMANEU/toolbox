@@ -34,7 +34,7 @@ Digital Twin Representation
 2.3, 2.4, 2.8
 
 ## Partners
-ITA
+![ITA Logo](/images/ita/italogo.jpg)
 
 ## Pilot
 To be used in all pilots that employ ROS2 for robot integration with the digital twin, specifically the GOIMEK pilot. 
