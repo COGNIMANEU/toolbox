@@ -23,6 +23,8 @@ This component provides:
 
 Configuration and launch files may be customized and adapted for each use case.
 
+![Component pilot02-connectivity-bridge-ros2-mqtt](/images/ita/pilot02-connectivity-bridge-ros2-mqtt.png)
+
 ## Type
 Tool
 
