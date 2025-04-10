@@ -27,6 +27,8 @@ Features:
 - Configurable topic mapping (ROS ↔ MQTT)
 - Docker support for containerized deployments
 
+![Component pilot02-connectivity-bridge-ros2-json-mqtt](/images/ita/pilot02-connectivity-bridge-ros2-json-mqtt.png)
+
 The repository includes the following components:
 - Configuration files (how to address the bridge from ROS->MQTT and MQTT->ROS including the automatic serializer and deserializer)
 - Docker setup for easy containerization
