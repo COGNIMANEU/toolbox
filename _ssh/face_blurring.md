@@ -55,4 +55,4 @@ Connectivity
 ![ITA Logo](/images/ita/italogo.jpg)
 
 ## Pilot
-To be used in all pilots involving ROS2 for robot integration with the digital twin—particularly the GOIMEK pilot—this component plays a critical role in bridging ROS2-based edge robotics with distributed systems in the cloud. By automatically converting ROS2 messages to and from JSON, it enables seamless interoperability with non-ROS2 components, such as cloud services, monitoring tools, or digital twin platforms. This ensures smooth bidirectional communication and enhances the efficiency of remote supervision and operations.
+This component enables face anonymization for images and videos captured by sensors before being sent to the cloud's digital twin. It uses various techniques to ensure privacy, applying different face detection and anonymization methods to blur or obscure facial features, guaranteeing that sensitive personal data is protected in the digital representation.
