@@ -40,7 +40,7 @@ This component provides a modular and configurable face anonymization system for
   Command-line anonymization tool supporting multiple filter modes (blur, mosaic, solid).  
   [GitHub →](https://github.com/ORB-HD/deface)
 
-![Face Blurring Demo](./ita/pilot02-ssh-faceblurring.gif)
+![Face Blurring Demo](/images/ita/pilot02-ssh-faceblurring.gif)
 
 ## Type
 Tool
