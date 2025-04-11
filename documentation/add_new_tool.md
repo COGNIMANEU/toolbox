@@ -6,7 +6,7 @@ The COGNIMAN Toolbox is structured according to the COGNIMAN Reference Architect
 - [_servicelayer](/_digitaltwin): Service Layer
 - [_userinterface](/_userinterface): User Interface
 - [_connectivity](/_connectivity): Connectivity and Intergration
-- [_ssh](/_connectivity): SSH and Ethics
+- [_ssh](/_ssh): SSH and Ethics
 
 ## Documentation Template
 The tool description template can be found [here](/documentation/example_tool_template.md). An example of the description has been completed for SINDIT, which can be found [here](/_digitaltwin/sindit.md).
