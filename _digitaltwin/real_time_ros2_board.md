@@ -22,6 +22,8 @@ This component provides a web based visualization tool for ROS2 environments. It
 - Compatible with live ROS nodes and ROS bag file playback
 - Easily extensible with custom .js visualizations
 
+![ROSBoard Demo](/images/ita/pilot02-digitaltwin-rosboard.png)
+
 ## Type
 Tool
 
