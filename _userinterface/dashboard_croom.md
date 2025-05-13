@@ -1,18 +1,18 @@
 ---
-title: "Dashboard CROOM"
+title: "Human Machine Interface for Additive Manufacturing Process"
 weight: 3
-description: "System interface to manage the manufacturing process... (CROOM pilot)"
+description: "Outputs live data of the process, integrated with warning signals and alerts highlighting the issue. "
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
-trl: "https://img.shields.io/badge/TRL-1-red"
-link: ""
-github: ""
+trl: "https://img.shields.io/badge/TRL-7-green"
+link: "https://github.com/COGNIMANEU/pilot03-interface-additive-manufacturing-process-management"
+github: "https://github.com/COGNIMANEU/pilot03-interface-additive-manufacturing-process-management"
 ---
 
 ## Name
-dashboard_croom
+Human Machine Interface for Additive Manufacturing Process
 
 ## Description
-System interface to manage the manufacturing process...
+Outputs live data of the process, integrated with warning signals and alerts highlighting the issue.
 
 ## Type
 Tool
@@ -24,7 +24,7 @@ UI
 3.0.1, 3.0.2
 
 ## Partners
-MI, IBM
+MI, CROOM, IRT
 
 ## Pilot
-To be used in Pilot 3 (CROOM pilot)
+Pilot03 - CROOM
