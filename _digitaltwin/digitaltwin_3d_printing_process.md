@@ -3,7 +3,7 @@ title: "A DigitalTwin for Additive Manufacturing printing process"
 weight: 1
 description: "This project aims to develop a digital twin system for monitoring and optimizing additive manufacturing (AM) printing processes"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
-trl: "https://img.shields.io/badge/TRL-6-green"
+trl: "https://img.shields.io/badge/TRL-7-green"
 link: "https://github.com/COGNIMANEU/pilot03-digitaltwin-am-printing-process"
 github: "https://github.com/COGNIMANEU/pilot03-digitaltwin-am-printing-process"
 ---
