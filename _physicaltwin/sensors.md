@@ -16,7 +16,7 @@ Sensors
 Device capturing temperature, vibration, and tension (3B Pilot)
 
 ## Pilot
-To be used in Pilot 1
+To be used in Pilot 1, 2, 3, 4
 
 ## Type
 Device
@@ -28,5 +28,5 @@ Physical
 1.1, 1.2
 
 ## Partners
-SINTEF
+SINTEF, NORCE
 
