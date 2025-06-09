@@ -2,7 +2,7 @@
 title: "Safety rules support (triangle)"
 date: 2024-10-24T10:59:53+00:00
 weight: 4
-description: "The system must be able to recognize the shape of the bar (round), wedges, etc. (ABS Pilot)"
+description: "The system must be able to recognize the shape of the bar (round), wedges, height, etc. (ABS Pilot)"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
 trl: "https://img.shields.io/badge/TRL-5-red"
 link: ""
