@@ -30,6 +30,8 @@ This component provides a Docker-based version of Lichtblick (https://github.com
 
 ![Board Demo](./images/ita/pilot02-digitaltwin-lichtblick.gif)
 
+[See at](https://toolbox.cogniman.eu/images/ita/pilot02-digitaltwin-lichtblick.gif)
+
 ## Type
 Tool
 
