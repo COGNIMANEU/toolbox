@@ -13,7 +13,7 @@ Real-Time ROS2 Lichtblick Visualizer
 
 ## Description
 
-This component provides a Docker-based version of Lichtblick (https://github.com/lichtblick-suite/lichtblick), adapted as a real-time visualization tool for robotics solutions based on ROS 2. It leverages the capabilities of Foxglove (https://foxglove.dev/) to provide an intuitive and interactive interface for monitoring and analyzing robotic systems in real time.
+This component provides a Docker-based version of [Lichtblick](https://github.com/lichtblick-suite/lichtblick), adapted as a real-time visualization tool for robotics solutions based on ROS 2. It leverages the capabilities of [Foxglove](https://foxglove.dev/) to provide an intuitive and interactive interface for monitoring and analyzing robotic systems in real time.
 
 ### Features
 
