@@ -28,9 +28,7 @@ This component provides a Docker-based version of Lichtblick (https://github.com
 - Multi-topic inspection: Subscribe to and inspect multiple ROS 2 topics in parallel.
 - Easy configuration: Supports loading custom layouts and configurations at startup.
 
-![Board Demo](./images/ita/pilot02-digitaltwin-lichtblick.gif)
-
-[See at](https://toolbox.cogniman.eu/images/ita/pilot02-digitaltwin-lichtblick.gif)
+![UI Lichtblick Demo](/images/ita/pilot02-digitaltwin-lichtblick.gif)
 
 ## Type
 Tool
