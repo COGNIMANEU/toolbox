@@ -10,7 +10,7 @@ github: "https://github.com/COGNIMANEU/pilot02-connectivity-bridge-ros2-dds"
 ---
 
 ## Name
-ROS2 DDS Bridge 
+ROS2 DDS Bridge (GOIMEK pilot)
 
 ## Description
 
