@@ -1,7 +1,7 @@
 ---
-title: "Modbus to ROS2 bridge"
+title: "Modbus to ROS2 bridge (GOIMEK pilot)"
 weight: 1
-description: "Your tool short description goes here."
+description: "Software to bridge Modbus to ROS2"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
 trl: "https://img.shields.io/badge/TRL-7-green"
 link: "http://mytool.ex"
@@ -9,7 +9,7 @@ github: "https://github.com/tool"
 ---
 
 ## Name
-Modbus to ROS2 
+Modbus to ROS2 (GOIMEK pilot)
 
 
 ## Description
