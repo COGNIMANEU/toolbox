@@ -1,8 +1,7 @@
 ---
 title: "Autonomous Deburring"
-date: 2024-01-16T12:00:00+00:00
 weight: 2
-description: "Embedded software for autonomous deburring (GOIMEK pilot)"
+description: "Embedded software for autonomous deburring management (GOIMEK pilot)"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
 trl: "https://img.shields.io/badge/TRL-1-red"
 link: ""
@@ -22,7 +21,7 @@ Tool
 Service
 
 ## HRL
-
+2.4
 
 ## Partners
 IDEKO
