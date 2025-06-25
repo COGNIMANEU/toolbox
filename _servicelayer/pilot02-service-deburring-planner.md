@@ -1,6 +1,5 @@
 ---
 title: "Deburring Planning"
-date: 2024-01-16T12:00:00+00:00
 weight: 2
 description: "Embedded software to plan deburring trajectories (GOIMEK pilot)"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
@@ -21,8 +20,8 @@ Tool
 ## Layer
 Service
 
-## HRL
-
+## HLR
+2.2
 
 ## Partners
 IDEKO
