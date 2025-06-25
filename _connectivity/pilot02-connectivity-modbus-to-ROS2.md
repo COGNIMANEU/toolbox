@@ -11,7 +11,6 @@ github: "https://github.com/tool"
 ## Name
 Modbus to ROS2 (GOIMEK pilot)
 
-
 ## Description
 Description
 
@@ -26,7 +25,6 @@ Connectivity
 
 ## Partners
 IDEKO
-
 
 ## Pilot
 To be used in Pilot 2 (GOIMEK)
