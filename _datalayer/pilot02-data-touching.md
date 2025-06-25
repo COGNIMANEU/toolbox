@@ -4,8 +4,8 @@ weight: 1
 description: "Manages data from a touch probing location process (GOIMEK pilot)"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
 trl: "https://img.shields.io/badge/TRL-7-green"
-link: "http://mytool.ex"
-github: "https://github.com/tool"
+link: ""
+github: ""
 ---
 
 ## Name
