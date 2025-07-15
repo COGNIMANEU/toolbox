@@ -15,7 +15,7 @@ Batch Self-positioning Service
 This system provides autonomous batch positioning using drones equipped with cameras to capture product positions. It supports QR codes and a novel trust-ability scoring system to ensure precise relative positioning in outdoor warehouse environments.
 
 
-IMAGE
+![Batch selfpositioning](/images/ABS_BatchPosition.png)
 
 
 ### Key Features:
