@@ -19,7 +19,7 @@ The system processes image data captured from cameras positioned above or near t
 
 By automating batch identification, the system reduces the need for manual input, lowers the risk of data entry errors, and ensures that materials are correctly logged and traced throughout the production and logistics process. This functionality plays a key role in maintaining end-to-end visibility and compliance in the ABS Pilot scenario.
 
-![Batch Identification](/images/norce/pilot04-digitaltwin-batch-identification.png))
+![Batch Identification](/images/pilot04-digitaltwin-batch-identification.png)
 ## Type
 Tool
 
