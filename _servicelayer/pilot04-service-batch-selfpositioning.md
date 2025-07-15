@@ -12,10 +12,14 @@ github: ""
 Batch Self-positioning Service
 
 ## Description
-dfsf sdfsd
+This system provides autonomous batch positioning using drones equipped with cameras to capture product positions. It supports QR codes and a novel trust-ability scoring system to ensure precise relative positioning in outdoor warehouse environments.
 
 ### Key Features:
-dwed 
+
+- Image-based positioning system
+- Infrastructure-free operation (no GPS or external anchors required)
+- QR code-based product identification
+- Trust-ability scoring to ensure the reliability of position data
 
 ## Type
 Tool
@@ -30,4 +34,5 @@ Service
 NORCE
 
 ## Pilot
-This component allows to position the batchs in outdoor stack using front images. 
+This component allows positioning of batches in outdoor stacks using front images captured by drones. 
+The system autonomously scans a designated area, detects QR codes for product identification, and calculates the spatial relationships between batches. 
