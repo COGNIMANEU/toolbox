@@ -38,5 +38,6 @@ Service
 NORCE
 
 ## Pilot
+Pilot 4 - ABS.
 This component allows positioning of batches in outdoor stacks using front images captured by drones. 
 The system autonomously scans a designated area, detects QR codes for product identification, and calculates the spatial relationships between batches. 
