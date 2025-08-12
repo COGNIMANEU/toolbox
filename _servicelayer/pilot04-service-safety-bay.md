@@ -2,7 +2,7 @@
 title: "Safety Bay Service"
 date: 2024-01-16T12:00:00+00:00
 weight: 5
-description: "Safety Bay Service"
+description: "A Python-based tool that determines whether a bar stacking bay is safe for operation."
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
 trl: "https://img.shields.io/badge/TRL-5-yellow"
 link: ""
@@ -10,7 +10,7 @@ github: ""
 ---
 
 ## Name
-Printing Process Monitoring
+Safety Bay Service
 
 ## Description
 A Python-based tool that determines whether a bar stacking bay is safe for operation. 

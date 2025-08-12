@@ -3,7 +3,7 @@ title: "Navigation Route Generator"
 weight: 2
 description: "Generation of Navigation Route"
 license: "https://img.shields.io/badge/License-Copyright%20%C2%A9-red"
-trl: "TRL https://img.shields.io/badge/TRL-7-green"
+trl: "https://img.shields.io/badge/TRL-7-green"
 link: ""
 github: ""
 ---

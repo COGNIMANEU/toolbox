@@ -1,9 +1,9 @@
 ---
 title: "Batch Self-positioning Service"
 weight: 4
-description: "Batch Self-positioning positionning"
+description: "This system provides autonomous batch positioning using drones equipped with cameras to capture product positions."
 license: "https://img.shields.io/badge/License-Copyright%20%C2%A9-red"
-trl: "TRL https://img.shields.io/badge/TRL-6-green"
+trl: "https://img.shields.io/badge/TRL-6-green"
 link: ""
 github: ""
 ---
