@@ -13,7 +13,7 @@ github: ""
 Sensors
 
 ## Description
-Device capturing temperature, vibration, and tension (3B Pilot)
+Device capturing vibration and tension (3B Pilot)
 
 ## Pilot
 To be used in Pilot 1, 2, 3, 4
