@@ -19,7 +19,7 @@ Device capturing vibration and tension (3B Pilot)
 To be used in Pilot 1, 2, 3, 4
 
 ## Type
-Device
+Physical Device
 
 ## Layer
 Physical
