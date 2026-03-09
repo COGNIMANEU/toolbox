@@ -9,7 +9,7 @@ link: "https://github.com/COGNIMANEU/pilot02-physical-oak-camera"
 github: "https://github.com/COGNIMANEU/pilot02-physical-oak-camera"
 ---
 ## Name
-Spinnaker ROS2 Camera Driver for Blackfly Camera Sensors
+DepthAI ROS2 Camera Driver for OAK Camera Sensors
 
 ## Description
 

@@ -12,7 +12,7 @@ github: ""
 Digitization data recorder 
 
 ## Description
-Description
+Manages and records data from a digitization process, enabling structured data capture and storage for further processing in the GOIMEK pilot.
 
 ## Type
 Tool

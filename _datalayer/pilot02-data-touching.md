@@ -12,7 +12,7 @@ github: ""
 Touch probing data recorder
 
 ## Description
-Description
+Manages and records data from a touch probing location process, enabling structured capture and storage of probing measurements for further processing in the GOIMEK pilot.
 
 ## Type
 Tool

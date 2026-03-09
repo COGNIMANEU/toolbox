@@ -4,8 +4,8 @@ weight: 1
 description: "Adapts the path points of the trajectory based on digitization data (GOIMEK pilot)"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
 trl: "https://img.shields.io/badge/TRL-7-green"
-link: "http://mytool.ex"
-github: "https://github.com/tool"
+link: ""
+github: ""
 ---
 
 ## Name

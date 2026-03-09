@@ -4,8 +4,8 @@ weight: 1
 description: "Calculates the new part frame based on the data from the touch probing and deburring planning (GOIMEK pilot)"
 license: "https://img.shields.io/badge/License-Unlicense-lightgrey"
 trl: "https://img.shields.io/badge/TRL-7-green"
-link: "http://mytool.ex"
-github: "https://github.com/tool"
+link: ""
+github: ""
 ---
 
 ## Name

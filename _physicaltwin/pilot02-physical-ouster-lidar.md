@@ -45,13 +45,13 @@ Physical
 
 ## Pilot
 
-This component integrates high-resolution Blackfly cameras to enhance the AGV’s visual perception capabilities. These cameras provide critical image data that supports a range of autonomous functions, ensuring reliability, precision, and situational awareness across various operational scenarios.
+This component integrates Ouster LiDAR sensors to enhance the AGV’s spatial perception capabilities. These sensors provide critical 3D point cloud data that supports a range of autonomous functions, ensuring reliability, precision, and situational awareness across various operational scenarios.
 
-### 2.3 Autonomous Navigation  
-The Blackfly cameras contribute to accurate visual feedback, assisting the robot in interpreting its environment and navigating autonomously through complex spaces where LiDAR or other sensors may have limitations.
+### 2.3 Autonomous Navigation
+The Ouster LiDAR sensors contribute to accurate spatial feedback, assisting the robot in interpreting its environment and navigating autonomously through complex spaces with high-precision distance measurements.
 
-### 2.6 Context & Safety Awareness  
-High-quality image streams from the Blackfly cameras enable detection of obstacles, dynamic elements, and changes in the environment. This ensures the AGV maintains real-time awareness, enhancing safety and responsiveness in unpredictable surroundings.
+### 2.6 Context & Safety Awareness
+High-quality point cloud data from the Ouster LiDAR sensors enables detection of obstacles, dynamic elements, and changes in the environment. This ensures the AGV maintains real-time awareness, enhancing safety and responsiveness in unpredictable surroundings.
 
-### 2.7 Semantic Map Generation  
-The image data serves as input for computer vision and AI-based perception pipelines, supporting object recognition and scene understanding. This enables the creation of rich semantic maps, improving decision-making and enabling the AGV to adapt to context-specific tasks.
+### 2.7 Semantic Map Generation
+The 3D point cloud data serves as input for perception pipelines, supporting object detection and scene understanding. This enables the creation of rich semantic maps, improving decision-making and enabling the AGV to adapt to context-specific tasks.

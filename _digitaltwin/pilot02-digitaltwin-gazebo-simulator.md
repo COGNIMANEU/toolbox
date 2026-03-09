@@ -17,7 +17,7 @@ This component contains a Docker-based version of the Gazebo Simulator ([https:/
 Gazebo Sim is an open-source robotics simulator that offers high-fidelity physics, rendering, and sensor models, providing a realistic environment for robotics research and development. It supports multiple points of entry for interaction, including a graphical user interface, plugins, and asynchronous message passing, giving users and developers flexibility in controlling simulations. Derived from over 16 years of development, Gazebo Sim enables advanced dynamics simulations, 3D graphics, and various sensor models like cameras, laser range finders, and IMUs, making it a powerful tool for both academic and commercial robotics projects.
 
 Example of a simple AGV model and world:
-![Gazebo Demo](/images/ita/pilot02-digitaltwin-gazebo-simulator.png))
+![Gazebo Demo](/images/ita/pilot02-digitaltwin-gazebo-simulator.png)
 
 ## Type
 Tool
