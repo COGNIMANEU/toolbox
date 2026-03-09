@@ -72,5 +72,3 @@ Apache License 2.0 — see [LICENSE](https://github.com/COGNIMANEU/pilot04-inter
 **TRL 7** — System prototype demonstration in operational environment. The Warehouse Logistic Assistant has been validated with comprehensive test coverage (127+ tests), automated CI/CD pipelines, Docker containerization, and complete documentation. The system is ready for operational pilot testing in real warehouse environments.
 
 ## References
-
-[1] COGNIMAN Project — https://cogniman.eu
