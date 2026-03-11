@@ -1,5 +1,5 @@
 ---
-title: COGNIMAN Toolbox Portal
+title: COGNIMAN Solution Cluster
 layout: home
 description: COGNIMAN Toolbox description.
 intro_image: "images/toolbox/cogniman_architecture.png"
@@ -7,10 +7,10 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: false
 ---
+![Toolbox](images/Cogniman_cluster.png)
+The **COGNIMAN Solutions Cluster** brings together technology providers, industrial validation environments and end-users to accelerate the adoption of advanced manufacturing solutions. At its core is the **COGNIMAN Toolbox**, a set of practical components and methods developed within the project to address key challenges in modern production.
 
+Each solution has been designed following a **human-centric approach**, ensuring that technologies enhance worker safety, usability and productivity.
 
-The COGNIMAN Toolbox is structured according to the COGNIMAN Reference Architecture, comprising a set of different Digital Twin (DT) supporting components. These component will typically be connected and configured together in different ways for different pipeline instances in various application contexts.
+The toolbox components are **developed and validated on-site in real industrial settings** by technology providers, ensuring their relevance and readiness for practical deployment. Through **on-request access**, the cluster makes these innovations available to **SMEs, startups, universities, companies, operators and researchers**, enabling them to explore, test and adopt advanced manufacturing capabilities.
 
-As shown in the figure, seven main steps for the pipeline have been defined, corresponding to 1) Physical Twin, 2) Data Layer, 3) Digital Twin Representation, 4) Service Layer, 5) User Interface, 6) Connectivity and Intergration, and 7) SSH and Ethics.
-
-![Toolbox](images/toolbox/COGNIMANInfographics.png)
